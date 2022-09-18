@@ -10,4 +10,14 @@
         margin-left: 2vw;
         border-left: 1px solid rgba(0, 0, 0, 0.3);
     }
-}
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.post-date {
+        grid-column: 2/1;
+    }
+    }
+    section.post-content {
+        grid-column: 1/1;
+    }
