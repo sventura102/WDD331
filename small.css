@@ -9,6 +9,7 @@ body {
     color: #333;
 }
 
-nav {
+nav{
     list-style: none;
+    text-decoration: none;
 }
