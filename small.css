@@ -13,7 +13,24 @@ header {
     align-content: center;
 }
 
-nav ul li a{
+nav li {
+   text-align: center;
+}
+
+nav ul {
     list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
     text-decoration: none;
+}
+
+nav a :link, nav a :visited {
+    color: #666;
+}
+
+nav a :hover {
+    color: #00ddff;
 }
