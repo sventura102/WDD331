@@ -4,9 +4,13 @@ h1, h2 {
     font-family: "Josefin Sans", sans-serif;
 }
 
-body {
+p, a {
     font-family: "Helvetica", sans-serif;
     color: #333;
+}
+
+header {
+    align-content: center;
 }
 
 nav {
